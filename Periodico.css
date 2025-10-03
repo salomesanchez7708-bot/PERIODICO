@@ -40,3 +40,45 @@ h6 {
 p {
   margin-bottom: 0.5rem;
 }
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #007bff; /* Azul estilo El Tiempo */
+  letter-spacing: 2px;
+}
+
+/* Noticias */
+h2 {
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+
+h5 {
+  font-size: 1.05rem;
+}
+
+h6 {
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.img-fluid {
+  border-radius: 5px;
+}
+
+/* Barra en vivo */
+.bg-light {
+  font-size: 0.95rem;
+}
+
+/* Espaciados */
+p {
+  margin-bottom: 0.5rem;
+}
