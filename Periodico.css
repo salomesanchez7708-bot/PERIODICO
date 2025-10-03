@@ -12,12 +12,9 @@
    font-family:'Times New Roman', Times, serif ;
 }
 
-
-img {
-   background-color: rgb(186, 212, 212);
-   border-radius: 10rem;
+.news-media {
+    border-radius: 0px;
 }
-
 
 body {
    margin: 0;
@@ -73,6 +70,7 @@ body {
    padding: 0 20px;
 }
 
+.author {
 text-align: center;
    position: relative;
    min-width: 130px;
@@ -206,5 +204,17 @@ text-align: center;
    }
    /* Fondo gris claro */
    .news-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
      background: #f5f5f5;
+
+   }
+
+   .news-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
    }
