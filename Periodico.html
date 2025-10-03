@@ -1,0 +1,109 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda del Día</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .noticia img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .titulo-seccion {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 15px 0;
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+    }
+    .noticia h5 {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    .noticia p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .caja-publicidad {
+      background-color: #e8ffe6;
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+      color: #2c7a3f;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-4">
+  <!-- Sección de título -->
+  <h3 class="titulo-seccion">AGENDA DEL DÍA</h3>
+
+  <div class="row g-4">
+    <!-- Noticia grande izquierda -->
+    <div class="col-md-6 noticia">
+      <img src="/Imagenesperiodico/maduro.webp" alt="Noticia principal">
+      <h5>Estados Unidos redobla señalamientos contra régimen de Nicolás Maduro</h5>
+      <p>El presidente venezolano manifestó este lunes que su país ejercerá el 'legítimo derecho a la defensa'.</p>
+    </div>
+
+    <!-- Noticia grande derecha -->
+    <div class="col-md-6 noticia">
+      <img src="/Imagenesperiodico/robert.jpeg" alt="Robert Redford">
+      <h5>Muere el actor y director Robert Redford a los 89 años</h5>
+      <p>La leyenda de Hollywood falleció tras décadas de carrera en el cine y la dirección.</p>
+    </div>
+  </div>
+
+  <!-- Fila secundaria -->
+  <div class="row g-4 mt-3">
+    <div class="col-md-4 noticia">
+      <img src="/Imagenesperiodico/epa.avif" alt="Epa Colombia">
+      <h5>Defensa de 'Epa Colombia' pide a la Corte revisar tutela</h5>
+    </div>
+    <div class="col-md-4 noticia">
+      <img src="/Imagenesperiodico/universidades.jpeg" alt="Universidades públicas">
+      <h5>¿Es cierto que las universidades públicas son de mayor calidad?</h5>
+    </div>
+    <div class="col-md-4 noticia">
+      <img src="/Imagenesperiodico/richar.webp" alt="Luis Díaz">
+      <h5>La marca que Luis Díaz batió en el Bayern Múnich</h5>
+    </div>
+  </div>
+
+  <!-- Otra fila -->
+  <div class="row g-4 mt-3">
+    <div class="col-md-6 noticia">
+      <img src="/Imagenesperiodico/madrid.webp" alt="Explosión en Madrid">
+      <h5>Dos colombianos murieron en explosión en un bar de Madrid</h5>
+      <p>Se conocen detalles de las víctimas y del incidente.</p>
+    </div>
+    <div class="col-md-6 noticia">
+      <img src="/Imagenesperiodico/playas.avif" alt="Playa América Latina">
+      <h5>¿Cuál es la playa más visitada de América Latina cerca de Bogotá?</h5>
+    </div>
+  </div>
+
+  <!-- Publicidad -->
+  <div class="row mt-4">
+    <div class="col-12">
+      <div class="caja-publicidad">
+        OIGA, MIRE, LEA. ¡Cali está de fiesta!
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
