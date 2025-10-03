@@ -82,3 +82,35 @@ h6 {
 p {
   margin-bottom: 0.5rem;
 }
+ body {
+      background-color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .noticia img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .titulo-seccion {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 15px 0;
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+    }
+    .noticia h5 {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    .noticia p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .caja-publicidad {
+      background-color: #e8ffe6;
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+      color: #2c7a3f;
+      border-radius: 5px;
+    }
